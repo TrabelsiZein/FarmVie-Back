@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: vapes
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: admin
+Implementation-Vendor-Id: com.vape.sec
+Build-Jdk: 1.8.0_211
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/vapes
+Created-By: Maven Integration for Eclipse
+

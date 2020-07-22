@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb1b1fd3-e763-48ab-89e2-195acb1754ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/Dto/ResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/Dto/SuivieProjetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/mailing/MyConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/mailing/SimpleEmailExampleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/SuivieProjet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/VapeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/config/WebMvcConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/controller/ProjetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/controller/SuivieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/controller/SuivieProjetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/controller/VoteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/Articles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/Projet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/RoleName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/Suivie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/model/Vote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/modelDTO/ProjetDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/modelDTO/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/repository/ArticleRep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/repo/SuivieProjetRep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/repository/ProjetRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/repository/RoleRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/repository/SuivieRep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/repository/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/repository/VoteRep.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/security/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/security/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/security/UserPrincipal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/service/ProjectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FarmVie/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/Dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/Dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/VapeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/VapeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/controller/ProjetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/controller/ProjetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/Projet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/Projet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/RoleName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vape/sec/repo/ProjetRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vape/sec/repo/ProjetRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eAw78YFqil9IrUSlZJuuXj6arl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vape.sec.Dto" />
+      <recent name="com.vape.sec.controller" />
+      <recent name="com.vape.sec.repo" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="VapeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="vapes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.vape.sec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vape.sec.VapeApplication" />
+      <option name="DEBUG_MODE" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb1b1fd3-e763-48ab-89e2-195acb1754ec" name="Default Changelist" comment="" />
+      <created>1593777534652</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593777534652</updated>
+      <workItem from="1593777543477" duration="4688000" />
+      <workItem from="1593869369737" duration="13628000" />
+      <workItem from="1594069887016" duration="7860000" />
+      <workItem from="1594160270494" duration="5945000" />
+      <workItem from="1594415176257" duration="2218000" />
+      <workItem from="1594480559634" duration="2145000" />
+      <workItem from="1594845603581" duration="717000" />
+      <workItem from="1595034244076" duration="1588000" />
+      <workItem from="1595267037936" duration="11694000" />
+      <workItem from="1595366244167" duration="671000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="859" y="411" key="#Assign_Data_Sources" timestamp="1593959552617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="859" y="411" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1593959552617" />
+    <state x="586" y="198" key="#Inspections" timestamp="1593966279052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1593966279052" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593869397358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593869397358" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1594160941685">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594160941685" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593983098954" />
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom" timestamp="1595345393152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594074192926" />
+    <state width="1877" height="172" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548803" />
+    <state width="1877" height="242" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393152" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center" timestamp="1595345393151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594074192922" />
+    <state width="1877" height="172" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548803" />
+    <state width="1877" height="242" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393151" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left" timestamp="1595345393151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782474" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594074192922" />
+    <state width="1877" height="172" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548803" />
+    <state width="1877" height="242" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393151" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right" timestamp="1595345393152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594074192926" />
+    <state width="1877" height="172" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548803" />
+    <state width="1877" height="242" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393152" />
+    <state width="1877" height="242" key="GridCell.Tab.1.bottom" timestamp="1595345393152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594074192926" />
+    <state width="1877" height="172" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548804" />
+    <state width="1877" height="242" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393152" />
+    <state width="1877" height="242" key="GridCell.Tab.1.center" timestamp="1595345393152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594074192926" />
+    <state width="1877" height="172" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548803" />
+    <state width="1877" height="242" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393152" />
+    <state width="1877" height="242" key="GridCell.Tab.1.left" timestamp="1595345393152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594074192926" />
+    <state width="1877" height="172" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548803" />
+    <state width="1877" height="242" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393152" />
+    <state width="1877" height="242" key="GridCell.Tab.1.right" timestamp="1595345393152">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1594070782476" />
+    <state width="1342" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594074192926" />
+    <state width="1877" height="172" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594162548804" />
+    <state width="1877" height="242" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595345393152" />
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom" timestamp="1594075322156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594075322156" />
+    <state width="1877" height="348" key="GridCell.Tab.2.center" timestamp="1594075322156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594075322156" />
+    <state width="1877" height="348" key="GridCell.Tab.2.left" timestamp="1594075322156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594075322156" />
+    <state width="1877" height="348" key="GridCell.Tab.2.right" timestamp="1594075322156">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594075322156" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1594072443328">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594072443328" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1595277196564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595277196564" />
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1593966171788">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593966171788" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1594078532620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594078532620" />
+  </component>
+</project>
