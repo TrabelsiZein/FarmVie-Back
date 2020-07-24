@@ -45,6 +45,15 @@ private String biologique;
  private LocalDate datadeployment;
  	private boolean isfavorite;
  	private String typeFinance;
+private int nbjr;
+
+	public int getNbjr() {
+		return nbjr;
+	}
+
+	public void setNbjr(int nbjr) {
+		this.nbjr = nbjr;
+	}
 
 	public String getNameIng() {
 		return nameIng;

@@ -118,7 +118,9 @@ public class ProjetController {
                 String encodeBase64 = null;
                 String extense = FilenameUtils.getExtension(f.getName());
                 Period period = Period.between(l.getDatadeployment(), LocalDate.now());
+                int p=period.getDays()+period.getMonths()*30;
                 System.out.println("deff=" + period.getDays());
+                l.setNbjr(60-p);
                 if (period.getMonths() == 2) {
                     l.setEtat("expirer");
 
