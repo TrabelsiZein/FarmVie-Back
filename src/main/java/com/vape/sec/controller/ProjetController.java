@@ -105,7 +105,7 @@ public class ProjetController {
     @CrossOrigin
     public ResponseEntity<List<Projet>> getArticle() {
 
-        List<Projet> la = prjetrepo.findByEtat("accepter");
+        List<Projet> la = prjetrepo.findByEtat("publie");
 
         for (Projet l : la) {
 
@@ -322,6 +322,49 @@ public class ProjetController {
     public List<Projet> getprojetEnAttente(@PathVariable("ing") Long ing, @PathVariable("etat") String etat) {
 
         List<Projet> la = prjetrepo.getPojectEnAttente(ing, etat);
+        la.addAll(prjetrepo.getPojectEnAttente(ing, "publie"));
+        
+        for (Projet l : la) {
+
+
+            System.out.println(l.getDescription());
+            try {
+                File f = new File(l.getPhotoProjet());
+
+                System.out.println(f.getName());
+
+                String encodeBase64 = null;
+                String extense = FilenameUtils.getExtension(f.getName());
+                Period period = Period.between(l.getDatadeployment(), LocalDate.now());
+                System.out.println("deff=" + period.getDays());
+                if (period.getMonths() == 2) {
+                    l.setEtat("expirer");
+
+                    prjetrepo.save(l);
+
+                }
+                FileInputStream fileInputStream = new FileInputStream(f);
+                byte[] bytes = new byte[(int) f.length()];
+                fileInputStream.read(bytes);
+                encodeBase64 = Base64.getEncoder().encodeToString(bytes);
+                l.setPhotoProjet("data:image/" + extense + ";base64," + encodeBase64);
+                fileInputStream.close();
+
+
+            } catch (Exception e) {
+                // TODO Auto-generated catch block
+            }
+        }
+        return la;
+
+    }
+    @GetMapping("/getProjetAttenteIng2/{ing}/{etat}")
+
+
+    public List<Projet> getprojetEnAttente2(@PathVariable("ing") Long ing, @PathVariable("etat") String etat) {
+
+        List<Projet> la = prjetrepo.getPojectEnAttente(ing, etat);
+         
         for (Projet l : la) {
 
 
@@ -460,6 +503,44 @@ public class ProjetController {
             p.setIngenieur(ing);
             p.setNameIng(u.getPrenom());
             p.setEtat(etat);
+            prjetrepo.save(p);
+            res.setCode(200);
+            res.setMsg("projet affecté avec succés");
+            return res;
+        } catch (Exception e) {
+            res.setCode(402);
+            res.setMsg("projet non affecté ");
+            return res;
+        }
+
+
+    }
+    @PostMapping("/accref/{ida}/{etat}")
+    public ResponseModel accref(@PathVariable("ida") long idProjet, @PathVariable("etat") String etat) throws IOException {
+        ResponseModel res = new ResponseModel();
+
+        try {
+            Projet p = prjetrepo.findByIdProjet(idProjet);
+            String mail;
+    		Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+    		mail = ((UserPrincipal) principal).getEmail();
+    		User user = userRepo.findByEmail(mail).get();
+    	    p.setEtat(etat);
+System.out.println("etatttt"+etat);
+    		if(etat.equals("accepte")) {
+	p.setIngenieur(user.getId());
+    p.setNameIng(user.getPrenom());
+
+	
+}
+if(etat.equals("refuse")) {
+	p.setIngenieur(null);
+    p.setNameIng(null);
+    p.setEtat("en attend");
+
+	
+}
+    		
             prjetrepo.save(p);
             res.setCode(200);
             res.setMsg("projet affecté avec succés");
